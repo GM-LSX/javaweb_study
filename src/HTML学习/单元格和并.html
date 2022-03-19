@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>表格单元格合并</title>
+</head>
+<body>
+<!--注意事项：
+1.row合并的时候，删除下面的单元格；
+2.col合并的时候，都可以
+-->
+<table border="1px" width="50%">
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td rowspan="2">1</td>
+  </tr>
+  <tr>
+    <td colspan="2">1</td>
+    <!--
+    <td>1</td>
+    -->
+  </tr>
+</table>
+</body>
+</html>
